@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<style>
+body{
+background-color: palegreen;
+
+}
+
+    form {
+        /* colocar a tela no meio */
+        margin: 0 auto;
+        width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: royalblue;
+    }
+
+    form div+div {
+        margin-top: 15px;
+    }
+
+    label {
+        text-align: right;
+        display: inline-block;
+        width: 80px;
+    }
+
+    textarea {
+        font: 12px sans-serif;
+        width: 300px;
+        border: 1px solid teal;
+        box-sizing: border-box;
+        border-radius: 3px;
+        vertical-align: top;
+        height: 100px;
+
+    }
+
+    input {
+        width: 299px;
+        border: 1px solid teal;
+
+    }
+
+    h3 {
+        text-align: center;
+
+    }
+
+    button {
+        margin-left: 330px;
+
+    }
+</style>
+
+<body>
+
+    <form action="contato.php" method="GET">
+        <div id="form_contato" form action="contato.php" method="GET" name="titulo">
+        </div>
+        <h3>Contato</h3>
+
+        <div name="nome">
+            <label> nome: </label>
+            <input type="text" id="nome_cliente" placeholder=" digite seu email">
+        </div>
+
+        <div name="email">
+            <label>email:</label>
+            <input type="email" id="email_cliente" placeholder="digite seu email">
+        </div>
+
+        <div name="mensagem">
+            <label>mensagem:</label>
+            <textarea id="mensagem_cliente" placeholder="escreva a sua mensagem"></textarea>
+        </div>
+
+        <div name="botao">
+            <button id="enviar">enviar</button>
+        </div>
+    </form>
+    </div>
+    </form>
+</body>
+
+</html>
