@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>PokeSystem</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(231, 208, 231)
+    }
+
+    form {
+        /* colocar a tela no meio */
+        margin: 0 auto;
+        width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 10px 0px;
+        padding: 15px;
+        background-color: rgb(25, 69, 201);
+    }
+
+    form div+div {
+        margin-top: 15px;
+    }
+
+    label {
+        text-align:right;
+        display: inline-block;
+        width:80px;
+    }
+
+    textarea {
+        font: 12px sans-serif;
+        width: 300px;
+        border: 1px solid teal;
+        box-sizing: border-box;
+        border-radius: 3px;
+        vertical-align: top;
+        height: 100px;
+
+    }
+
+    input {
+        
+       
+    }
+
+    h3 {
+        text-align: center;
+
+    }
+
+    button {
+        margin-left: 330px;
+
+    }
+    #Ataque{
+        width: 65px;
+    }
+    #Defesa{
+        width: 65px;
+    }
+    </style>
+
+<body>
+
+    <form action=".php" method="GET">
+        <div id="form_Pokesystem" form action="PokeSystem.php" method="GET" name="titulo">
+        </div>
+        <h3>PokeSystem</h3>
+
+        <div name="nome">
+            <label> Nome: </label>
+            <input type="text" id="nome_pokemon" placeholder=" digite seu Nome">
+        </div>
+
+        <div name="tipo">
+            <label>tipo:</label>
+            
+            <select id="tipo">
+                <option value="">--Selecione</option>
+                <option value="Eletrico">Eletrico</option>
+                <option value="Fogo">Fogo</option>
+                <option value="Agua">Agua</option>
+                <option value="Terra">Terra</option>
+                <option value="Gelo">Gelo</option>
+                <option value="Psiquico">Psiquico</option>
+                <option value="Planta">Planta</option>
+            </select>
+        </div>
+
+
+        <div id="status">
+            <label for="">Ataque</label>
+            <input type="number" name="" id="Ataque" placeholder="0 - 100"> <label for="">Evoluido?</label>
+            <br>
+            <br>
+            <label for="">Defesa</label>
+            <input type="number" name="" id="Defesa" placeholder="0 - 100">
+            <input type="radio" name="evoluido" checked>Sim
+            <input type="radio" name="evoluido">Nao
+        </div>
+           
+
+            <div name="Descrição">
+                <label>Descrição:</label>
+                <textarea id="mensagem_cliente" placeholder="Quais as caracteristicas desse Pokemon?"></textarea>
+            </div>
+
+            <div name="botao">
+                <button id="Salvar">Salvar</button>
+            </div>
+    </form>
+    </div>
+    </form>
+</body>
+
+</html>
