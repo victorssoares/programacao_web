@@ -27,9 +27,13 @@
     }
 
     label {
-        text-align:right;
+        text-align: right;
         display: inline-block;
-        width:80px;
+        width: 80px;
+    }
+
+    #nome_pokemon {
+        width: 300px;
     }
 
     textarea {
@@ -43,10 +47,7 @@
 
     }
 
-    input {
-        
-       
-    }
+    input {}
 
     h3 {
         text-align: center;
@@ -57,13 +58,12 @@
         margin-left: 330px;
 
     }
-    #Ataque{
-        width: 65px;
+
+    #Ataque,
+    #Defesa {
+        width: 60px;
     }
-    #Defesa{
-        width: 65px;
-    }
-    </style>
+</style>
 
 <body>
 
@@ -74,12 +74,12 @@
 
         <div name="nome">
             <label> Nome: </label>
-            <input type="text" id="nome_pokemon" placeholder=" digite seu Nome">
+            <input type="text" id="nome_pokemon" placeholder=" digite o Nome do Seu Pokemon">
         </div>
 
-        <div name="tipo">
+        <div name="Poder">
             <label>tipo:</label>
-            
+
             <select id="tipo">
                 <option value="">--Selecione</option>
                 <option value="Eletrico">Eletrico</option>
@@ -103,16 +103,17 @@
             <input type="radio" name="evoluido" checked>Sim
             <input type="radio" name="evoluido">Nao
         </div>
-           
 
-            <div name="Descrição">
-                <label>Descrição:</label>
-                <textarea id="mensagem_cliente" placeholder="Quais as caracteristicas desse Pokemon?"></textarea>
-            </div>
 
-            <div name="botao">
-                <button id="Salvar">Salvar</button>
-            </div>
+        <div name="Descrição">
+            <label>Descrição:</label>
+            <textarea id="mensagem_cliente" placeholder="Quais as caracteristicas desse Pokemon?"></textarea>
+        </div>
+
+        <div name="botao">
+            <button id="Salvar">Salvar</button>
+
+        </div>
     </form>
     </div>
     </form>
