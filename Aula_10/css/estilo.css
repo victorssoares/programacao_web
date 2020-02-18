@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(231, 208, 231)
+}
+
+form {
+    /* colocar a tela no meio */
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0px;
+    padding: 15px;
+    background-color: rgb(25, 69, 201);
+}
+
+form div+div {
+    margin-top: 15px;
+}
+
+label {
+    text-align: right;
+    display: inline-block;
+    width: 80px;
+}
+
+#nome_pokemon {
+    width: 300px;
+}
+
+textarea {
+    font: 12px sans-serif;
+    width: 300px;
+    border: 1px solid teal;
+    box-sizing: border-box;
+    border-radius: 3px;
+    vertical-align: top;
+    height: 100px;
+
+}
+
+input {}
+
+h3 {
+    text-align: center;
+
+}
+
+button {
+    margin-left: 330px;
+
+}
+
+#Ataque,
+#Defesa {
+    width: 60px;
+}
