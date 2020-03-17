@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>21 de boca</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <style>
+
+    </style>
+    <div id="pai">
+        <div id="corpo">
+            <h2 >Bem vindo ao jogo: 21 de boca</h2>
+            <label class="camposJogadores">Digite o nome player1:</label>
+            <input class="camposJogadores" id="jogador1" type="text" placeholder="Digite o nome do jogador 1"> 
+            <label class="camposJogadores">Digite o nome player2:</label>
+            <input class="camposJogadores" id="jogador2" type="text" placeholder="Digite o nome do jogador 2"> 
+            
+            <button type="button" class="btn btn-success camposJogadores" onclick="add()">Salvar jogadores</button>
+        </div>
+        <div id="teste">
+            <h3>Jogadores</h3>
+        </div>
+    </div>
+    <div id="jogo">
+        <h3>Vamos começar!</h2>
+            <p id="valorAtual"></p>
+            <div id="botoes">
+                <button id="botao1" type="button" class="btn btn-info" value="1" onclick="somar(1)">+1 Numero</button>
+                <button id="botao2" type="button" class="btn btn-info" value="2" onclick="somar(2)">+2 Números</button>
+                <button id="botao3" type="button" class="btn btn-info" value="3" onclick="somar(3)">+3 Números</button>
+            </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
