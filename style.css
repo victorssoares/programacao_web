@@ -1,0 +1,71 @@
+#jogador1 {
+    width: 15em;
+}
+
+#jogador2 {
+    width: 15em;
+}
+
+#corpo {
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 30em;
+    margin: auto;
+    margin-top: 3em;
+    color: white;
+    height: 17em;
+    padding: 10px;
+    background-color: rgb(55, 149, 212);
+}
+
+label {
+    margin-bottom: 1px;
+}
+
+.btn-success {
+    float: right;
+}
+
+.btn-primary {
+    float: right;
+}
+
+#teste {
+    border: solid 1px black;
+    width: 20em;
+    height: 10.8em;
+    margin: auto;
+    padding: 5px;
+    margin-top: 3em;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+#jogo {
+    margin: 0 auto;
+    border: solid 1px black;
+    width: 32.6em;
+    padding: 5px;
+    border-radius: 5px;
+    height: 10em;
+    text-align: center;
+}
+
+#corpo{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.camposJogadores{
+    margin-top: 10px;
+}
+
+#botoes{
+    position: relative;
+}
