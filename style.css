@@ -6,6 +6,10 @@
     width: 15em;
 }
 
+body {
+    padding: 30px;
+}
+
 #corpo {
     border: solid 1px black;
     border-radius: 5px;
@@ -51,21 +55,42 @@ h3 {
     width: 32.6em;
     padding: 5px;
     border-radius: 5px;
-    height: 10em;
+    height: 30em;
     text-align: center;
 }
 
-#corpo{
-        display: flex;
+#corpo {
+    display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.camposJogadores{
+.camposJogadores {
     margin-top: 10px;
 }
 
-#botoes{
+#botoes {
     position: relative;
+}
+
+#valorAtual {
+    height: 15px;
+}
+
+.gifPai {
+    border: solid 1px rgb(180, 180, 180);
+    margin-top: 28px;
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
+}
+
+#gif {
+    margin: auto;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.836);
+    border: solid 2px rgb(141, 141, 141);
+    margin-top: 35px;
 }
